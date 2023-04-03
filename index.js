@@ -8,6 +8,7 @@ style.innerHTML = `
       .request-a-quote-button {
         background-color: black;
         color:white;
+        padding: 5px 10px;
       }
     `;
 document.head.appendChild(style);
