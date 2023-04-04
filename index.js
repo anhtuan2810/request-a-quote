@@ -1,8 +1,8 @@
 const getProductTitle = document.querySelector('[data-hook=product-title]');
 const newElement = document.createElement('button');
-newElement.innerHTML = 'Request A Quote'
+newElement.textContent = 'Request A Quote'
 newElement.setAttribute("class", "request-a-quote-button")
-getProductTitle.insertAdjacentElement('afterend', newElement);
+insertAfter(newElement, getProductTitle)
 const style = document.createElement('style');
 style.innerHTML = `
       .request-a-quote-button {
@@ -12,3 +12,7 @@ style.innerHTML = `
       }
     `;
 document.head.appendChild(style);
+
+function insertAfter(newNode, existingNode) {
+    existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+}
