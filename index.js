@@ -1,6 +1,7 @@
 setTimeout(() => {
     settingQuoteButton()
     setStyle()
+    console.log(1)
 }, 1500)
 
 const settingQuoteButton = () => {
