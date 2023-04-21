@@ -1,0 +1,51 @@
+[{
+        "isChoosen": "startwith",
+        "isCustomer": false,
+        "isInventory": false,
+        "isNumber": false,
+        "isString": true,
+        "isTime": false,
+        "selectedType": "type",
+        "valueCondition": "phy"
+    },
+    {
+        "isChoosen": "contain",
+        "isCustomer": false,
+        "isInventory": false,
+        "isNumber": false,
+        "isString": true,
+        "isTime": false,
+        "selectedType": "title",
+        "valueCondition": "I'm"
+    },
+    {
+        "isChoosen": "greater",
+        "isCustomer": false,
+        "isInventory": false,
+        "isNumber": true,
+        "isString": false,
+        "isTime": false,
+        "selectedType": "price",
+        "valueCondition": "15"
+    },
+    {
+        "isChoosen": "greater",
+        "isCustomer": false,
+        "isInventory": false,
+        "isNumber": true,
+        "isString": false,
+        "isTime": false,
+        "selectedType": "price",
+        "valueCondition": "15"
+    },
+    {
+        "isChoosen": "publish_before",
+        "isCustomer": false,
+        "isInventory": false,
+        "isNumber": false,
+        "isString": false,
+        "isTime": true,
+        "selectedType": "time",
+        "valueCondition": "04/12/2023"
+    }
+]
